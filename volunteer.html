@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="id">
+<head>
+    <title>Short Mission Trip</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Assets/styles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Assets/Images/logoSMT-noText.png" alt="SMTLogo">
+            </div>
+            <ul id="menuList">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="campaigns.html">Campaigns</a></li>
+              <li><a href="aboutUs.html">About Us</a></li>
+              <a href="volunteer.html" class="a-button">
+                <button type="button" class="btn-login">Login</button>
+            </a>
+            </ul>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            </div>
+        </nav>
+    </header>
+    <section id="sectionList">
+        <div class="grid-container volunteer">
+            <div class="grid-item">
+                <img src="Assets/Images/volunteer.png" alt="volunteerImg">
+            </div>
+            <div class="grid-item">
+                <div class="wrapper">
+                    <!-- <div class="title-text">
+                      <div class="title login">Login Form</div>
+                      <div class="title signup">Signup Form</div>
+                    </div> -->
+              
+                    <div class="form-container">
+                      <div class="slider-controls">
+                        <input type="radio" name="slide" id="login" checked />
+                        <input type="radio" name="slide" id="signup" />
+                        <label for="login" class="slide login">Login</label>
+                        <label for="signup" class="slide signup">Signup</label>
+                        <div class="slider-tab"></div>
+                      </div>
+              
+                      <div class="form-inner">
+                        <form action="#" class="login">
+                          <div class="field">
+                            <label>Email Address</label>
+                            <input type="text" placeholder="Email Address" required />
+                          </div>
+              
+                          <div class="field">
+                            <label>Password</label>
+                            <input type="password" placeholder="Password" required />
+                          </div>  
+              
+                          <div class="field">
+                            <input id="loginbtn" type="submit" value="Login" />
+                          </div>
+              
+                        </form>
+              
+                        <form action="#" class="signup">
+                          <div class="field">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="First Name" required />
+                          </div>
+                          <div class="field">
+                            <label>Phone Number</label>
+                            <input type="text" placeholder="Phone Number" required />
+                          </div>
+                          <div class="field">
+                            <label>Email Address</label>
+                            <input type="text" placeholder="Email Address" required />
+                          </div>
+              
+                          <div class="field">
+                            <label>Password</label>
+                            <input type="password" placeholder="Password" required />
+                          </div>
+              
+                          <div class="field">
+                            <input id="signbtn" type="submit" value="Signup" />
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <script src="Assets/scripts.js"></script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+</body>
+</html>
